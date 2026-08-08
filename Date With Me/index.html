@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="bg">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Покана за среща 💌</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Caveat:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- декоративни летящи сърчица и звездички на фона -->
+    <div class="floaters" aria-hidden="true">
+        <span style="left:6%;  animation-duration: 9s;  animation-delay: 0s;">💖</span>
+        <span style="left:16%; animation-duration: 12s; animation-delay: 1.5s;">✨</span>
+        <span style="left:28%; animation-duration: 8s;  animation-delay: 3s;">💕</span>
+        <span style="left:42%; animation-duration: 11s; animation-delay: 0.5s;">⭐</span>
+        <span style="left:58%; animation-duration: 10s; animation-delay: 2s;">💘</span>
+        <span style="left:70%; animation-duration: 13s; animation-delay: 4s;">✨</span>
+        <span style="left:82%; animation-duration: 9s;  animation-delay: 1s;">💗</span>
+        <span style="left:92%; animation-duration: 12s; animation-delay: 3.5s;">🌸</span>
+        <span style="left:6%;  animation-duration: 9s;  animation-delay: 0s;">💖</span>
+        <span style="left:16%; animation-duration: 12s; animation-delay: 1.5s;">✨</span>
+        <span style="left:28%; animation-duration: 8s;  animation-delay: 3s;">💕</span>
+        <span style="left:42%; animation-duration: 11s; animation-delay: 0.5s;">⭐</span>
+        <span style="left:58%; animation-duration: 10s; animation-delay: 2s;">💘</span>
+        <span style="left:70%; animation-duration: 13s; animation-delay: 4s;">✨</span>
+        <span style="left:82%; animation-duration: 9s;  animation-delay: 1s;">💗</span>
+        <span style="left:92%; animation-duration: 12s; animation-delay: 3.5s;">🌸</span>
+        <span style="left:6%;  animation-duration: 9s;  animation-delay: 0s;">💖</span>
+        <span style="left:16%; animation-duration: 12s; animation-delay: 1.5s;">✨</span>
+        <span style="left:28%; animation-duration: 8s;  animation-delay: 3s;">💕</span>
+        <span style="left:42%; animation-duration: 11s; animation-delay: 0.5s;">⭐</span>
+        <span style="left:58%; animation-duration: 10s; animation-delay: 2s;">💘</span>
+        <span style="left:70%; animation-duration: 13s; animation-delay: 4s;">✨</span>
+        <span style="left:82%; animation-duration: 9s;  animation-delay: 1s;">💗</span>
+        <span style="left:92%; animation-duration: 12s; animation-delay: 3.5s;">🌸</span>
+        <span style="left:6%;  animation-duration: 9s;  animation-delay: 0s;">💖</span>
+        <span style="left:16%; animation-duration: 12s; animation-delay: 1.5s;">✨</span>
+        <span style="left:28%; animation-duration: 8s;  animation-delay: 3s;">💕</span>
+        <span style="left:42%; animation-duration: 11s; animation-delay: 0.5s;">⭐</span>
+        <span style="left:58%; animation-duration: 10s; animation-delay: 2s;">💘</span>
+        <span style="left:70%; animation-duration: 13s; animation-delay: 4s;">✨</span>
+        <span style="left:82%; animation-duration: 9s;  animation-delay: 1s;">💗</span>
+        <span style="left:92%; animation-duration: 12s; animation-delay: 3.5s;">🌸</span>
+    </div>
+
+    <div class="card">
+        <div id="formView">
+            <div class="header">
+                <span class="icon" aria-hidden="true">💌</span>
+                <h1>Нека излезем на среща!</h1>
+                <p>Нека направим това преживяване незабравимо!</p>
+            </div>
+
+            <form id="inviteForm" action="https://formspree.io/f/mbgrdpbp" method="post">
+
+                <div class="form-group">
+                    <label for="name">🙋 С кого ще се срещам скъпа/скъпи:</label>
+                    <input type="text" name="Име" id="name" placeholder="Как се казваш, скъпа/скъпи?" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="datetime">🕒 Кога ще ме удостоиш с вниманието си:</label>
+                    <input type="datetime-local" name="Кога ще се срещнем" id="datetime" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="activity">🎯 Как да направим нещата специални?</label>
+                    <select name="Среща" id="activity" required>
+                        <option value="" disabled selected>Имам идея. Кликни ме. 🙋</option>
+                        <option value="Кафенце">☕ Кафенце</option>
+                        <option value="Хубава вечеря">🍝 Хубава вечеря</option>
+                        <option value="Кино или театър">🎬 Кино или театър</option>
+                        <option value="THE SHOTS">🍸️ THE SHOTS</option>
+                        <option value="Разходка в парка">🌳 Разходка в парка</option>
+                        <option value="Пикник на тревата">🧺 Пикник на тревата</option>
+                        <option value="Боулинг или билярд">🎳 Боулинг или билярд</option>
+                        <option value="Среща в университета">🏫 Среща в университета</option>
+                        <option value="Музей или изложба">🖼️ Музей или изложба бе</option>
+                        <option value="Пазар/шопинг">🛍️ Пазар/шопинг бе</option>
+                        <option value="Happy изкушения">🍴 Happy изкушения</option>
+                        <option value="Игрички (бордови/видео)">🎮 Игрички (бордови/видео)</option>
+                        <option value="Спорт">🏀 Спорт</option>
+                        <option value="Панаир или сладкарница">🍦 Панаир или сладкарница</option>
+                        <option value="Искам да те изненадам">🎁 Ще те изненадам! Очаквай повече информация.</option>
+                        <option value="Друго">✍️ Друго (имам по-добра идея)</option>
+                    </select>
+                </div>
+
+                <div class="form-group" id="customIdeaGroup" hidden>
+                    <label for="customIdea">💡 Идеята:</label>
+                    <input type="text" name="Идея" id="customIdea" placeholder="Не пази и това в тайна, потайни човече!">
+                </div>
+
+                <div class="form-group">
+                    <label for="note">💬 Дай ми малко подробности за мястото:</label>
+                    <textarea name="съобщение" id="note" rows="3" placeholder="Подробности за мястото..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Заяви среща 🚀</button>
+            </form>
+        </div>
+
+        <div id="confirmView" class="confirm-view" hidden>
+            <div class="header">
+                <span class="icon" aria-hidden="true">🎉</span>
+                <h1>Всичко е изпратено</h1>
+                <p>Ето какво се разбрахме:</p>
+            </div>
+
+            <ul class="summary-list">
+                <li><span class="summary-label">🙋 С кого ще се видя:</span><span class="summary-value" id="sumName"></span></li>
+                <li><span class="summary-label">🕒 Кога ще се видим:</span><span class="summary-value" id="sumDatetime"></span></li>
+                <li><span class="summary-label">🎯 Какво е нашето приключение:</span><span class="summary-value" id="sumActivity"></span></li>
+                <li class="summary-note" id="sumNoteWrap"><span class="summary-label">💬 Инфо:</span><span class="summary-value" id="sumNote"></span></li>
+            </ul>
+
+            <button type="button" class="submit-btn secondary-btn" id="editBtn">← Имаш време и за промяна, скъпа/скъпи.</button>
+        </div>
+
+    </div>
+
+    <script>
+        const form = document.getElementById('inviteForm');
+        const activitySelect = document.getElementById('activity');
+        const customIdeaGroup = document.getElementById('customIdeaGroup');
+        const customIdeaInput = document.getElementById('customIdea');
+        const formView = document.getElementById('formView');
+        const confirmView = document.getElementById('confirmView');
+        const editBtn = document.getElementById('editBtn');
+
+        activitySelect.addEventListener('change', () => {
+            const isOther = activitySelect.value === 'Друго';
+            customIdeaGroup.hidden = !isOther;
+            customIdeaInput.required = isOther;
+            if (!isOther) customIdeaInput.value = '';
+        });
+
+        function formatDateTime(value) {
+            if (!value) return '—';
+            const d = new Date(value);
+            return d.toLocaleString('bg-BG', {
+                day: '2-digit', month: 'long', year: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            });
+        }
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const datetime = document.getElementById('datetime').value;
+            const activityValue = activitySelect.value;
+            const activityLabel = activityValue === 'Друго'
+                ? (customIdeaInput.value.trim() || 'Друго')
+                : activitySelect.options[activitySelect.selectedIndex].text;
+            const note = document.getElementById('note').value.trim();
+
+            try {
+                await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                });
+            } catch (err) {
+                
+            }
+
+            document.getElementById('sumName').textContent = name || '—';
+            document.getElementById('sumDatetime').textContent = formatDateTime(datetime);
+            document.getElementById('sumActivity').textContent = activityLabel;
+
+            const noteWrap = document.getElementById('sumNoteWrap');
+            if (note) {
+                document.getElementById('sumNote').textContent = note;
+                noteWrap.hidden = false;
+            } else {
+                noteWrap.hidden = true;
+            }
+
+            formView.hidden = true;
+            confirmView.hidden = false;
+        });
+
+        editBtn.addEventListener('click', () => {
+            confirmView.hidden = true;
+            formView.hidden = false;
+        });
+    </script>
+
+</body>
+
+</html>
